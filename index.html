@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="container">
+      <div class="calculator grid">
+        <!-- Row 01 -->
+        <h2>Casio</h2>
+        <div class="power-cell"></div>
+        <!-- Row 02 -->
+        <div class="screen" id="screen">
+          <div class="icons-bar">
+            <div class="icons-left">
+              <i class="fa-solid fa-m active icon" id="memory-icon"></i>
+            </div>
+            <div class="icons-right">
+              <i class="fa-solid fa-plus icon" id="plus-icon"></i>
+              <i class="fa-solid fa-minus icon" id="minus-icon"></i>
+              <i class="fa-solid fa-xmark icon" id="multiply-icon"></i>
+              <i class="fa-solid fa-divide icon" id="divide-icon"></i>
+            </div>
+          </div>
+          <div class="display" id="#display">
+            <p>1234567890.12</p>
+          </div>
+        </div>
+        <button id="negative">&#177;</button>
+        <button id="mrc">MRC</button>
+        <button id="m-neg">M-</button>
+        <button id="m-pos">M+</button>
+        <button id="division">&#247;</button>
+        <!-- Row 03 -->
+        <button id="backspace">&#8592;</button>
+        <button id="seven">7</button>
+        <button id="eight">8</button>
+        <button id="nine">9</button>
+        <button id="multiply">x</button>
+        <!-- Row 04 -->
+        <button id="c">C</button>
+        <button id="four">4</button>
+        <button id="five">5</button>
+        <button id="six">6</button>
+        <button id="subtract">-</button>
+        <!-- Row 05 -->
+        <button id="ac">AC</button>
+        <button id="one">1</button>
+        <button id="two">2</button>
+        <button id="three">3</button>
+        <button id="add">+</button>
+        <!-- Row 05 -->
+        <button id="zero">0</button>
+        <button id="double-zero">00</button>
+        <button id="dot">.</button>
+        <button id="equal">=</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
